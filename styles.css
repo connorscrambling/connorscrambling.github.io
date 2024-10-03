@@ -1,16 +1,30 @@
-body {
-background-color: rgb(97, 200, 142);
+body{
+background-color: seagreen;
 font-family: Arial, Helvetica, sans-serif;
 }
-
 h1{
-color:blanchedalmond;
-text-align: center; 
+color: antiquewhite;
+text-align: center;
 }
 
+.projects { 
+    display:flex; 
+    flex-wrap:wrap; } 
+.project {
+    width: 30%;
+    margin: 10px;
+    padding: 20px 10px;
+    background: white; 
+    border-radius: 25%;
+}
+.project img{
+    width: 300px;
+    margin: 300px;
+    margin: 10px;
+    border: 2px solid rgb(134, 167, 129);
 
-
-
-
-
-
+}
+a{
+    text-decoration: none;
+    color: black;
+}
