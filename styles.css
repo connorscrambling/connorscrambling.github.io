@@ -1,10 +1,15 @@
 body{
-background-color: seagreen;
+background-color: rgb(101, 171, 131);
 font-family: Arial, Helvetica, sans-serif;
 }
 h1{
 color: antiquewhite;
 text-align: center;
+}
+
+.about img{
+    width: 250px;
+    
 }
 
 .projects { 
